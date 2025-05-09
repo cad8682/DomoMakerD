@@ -31,5 +31,6 @@ DomoSchema.statics.toAPI = (doc) => ({
     age: doc.age,
 });
 
+//I just changed the name so it wouldn't interfere with my DomoMaker E group
 const DomoModel = mongoose.model('DomoD', DomoSchema);
 module.exports = DomoModel;
